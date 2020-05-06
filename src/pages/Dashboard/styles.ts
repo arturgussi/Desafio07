@@ -61,6 +61,11 @@ export const TableContainer = styled.section`
       text-align: left;
       font-size: 16px;
       line-height: 24px;
+
+      .react-icons{
+        margin-left: 12px;
+        vertical-align: middle;
+      }
     }
 
     td {
@@ -70,6 +75,11 @@ export const TableContainer = styled.section`
       font-size: 16px;
       font-weight: normal;
       color: #969cb3;
+
+      .react-icons{
+        margin-right: 22px;
+        vertical-align: middle;
+      }
 
       &.title {
         color: #363f5f;
